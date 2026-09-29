@@ -1,0 +1,6 @@
+{
+  "name": "Smart Farm",
+  "description": "Smart Underground Irrigation & Crop Monitoring System with real-time sensor monitoring, ESP32 telemetry simulation, weather intelligence, and root-zone irrigation control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

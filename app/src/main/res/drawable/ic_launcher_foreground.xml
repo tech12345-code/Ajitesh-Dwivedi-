@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (21dp to 87dp) -->
+    <!-- Plant stem & sprout -->
+    <path
+        android:fillColor="#52B788"
+        android:pathData="M54,30 C54,30 40,32 40,46 C40,56 50,60 54,64 C58,60 68,56 68,46 C68,32 54,30 54,30 Z" />
+    <!-- Water droplet inside sprout -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,42 C51,46 47,51 47,55 C47,59 50,62 54,62 C58,62 61,59 61,55 C61,51 57,46 54,42 Z" />
+    <!-- Sprout leaf left -->
+    <path
+        android:fillColor="#74C69D"
+        android:pathData="M48,46 C40,42 32,45 31,52 C37,56 46,52 48,46 Z" />
+    <!-- Sprout leaf right -->
+    <path
+        android:fillColor="#95D5B2"
+        android:pathData="M60,46 C68,42 76,45 77,52 C71,56 62,52 60,46 Z" />
+    <!-- Underground soil line & root irrigation pipes -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#4ADE80"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,64 L54,78" />
+    <!-- Underground horizontal irrigation distribution pipe -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M32,78 L76,78" />
+    <!-- Underground root drip emitters -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M36,83 A2,2 0 1,0 36,79 A2,2 0 1,0 36,83 Z M54,83 A2,2 0 1,0 54,79 A2,2 0 1,0 54,83 Z M72,83 A2,2 0 1,0 72,79 A2,2 0 1,0 72,83 Z" />
+    <!-- Tech circuit node dots -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34 A1.5,1.5 0 1,0 54,31 A1.5,1.5 0 1,0 54,34 Z" />
+</vector>
